@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+  
+}
+.navbar{
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    display: flex;
+    /* align-items: center; */
+    position: fixed;
+    top: 0;
+
+}
+.mainimg{
+    /* margin-top: 50px; */
+    height: 100vh;
+    width: 100%;
+}
+.img1{
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 30px;
+}
+.logoimg{
+    height: 30px;
+}
+.menu1{
+    width: 45%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.menu2{
+    width: 35%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.menu1  a{
+    text-decoration: none;
+    color: white;
+}
+.menu1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.menu2  a{
+    text-decoration: none;
+    color: white;
+}
+.menu2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#postbutton{
+    background-color: #E60278;
+    padding: 7px 12px ;
+    border-radius: 5px;
+    color: white;
+}
+
+.backgroundimg1{
+    height: 100vh;
+    background-image: url("./enterprise-upsell-v5-desktop-test.jpg");
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 45%;
+    width: 100%;
+}
+.twobuttons{
+    display: flex;
+    margin-left: 45%;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.orderedlist{
+    margin-left: 55%;
+    width: 100%;
+    font-size: x-large;
+
+}
+
+
+.button1{
+    background-color: #E60278;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.button2{
+    background-color: rgba(221, 40, 146, 0);
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+.button1 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.button2 a{
+    color: white;
+    text-decoration: none;
+}
+.button2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.name,.orderedlist{
+    margin-bottom: 30px
+
+}
+.fixedimg{
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+}
+/* 
+.fixedchat{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    font-size: xx-large;
+
+} */
+
+.companylogo{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.companylogo a img{
+    width: 9vh;
+}
+.companylogo h2{
+    color: white;
+}
